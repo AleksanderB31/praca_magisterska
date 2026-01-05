@@ -1,0 +1,17 @@
+name: driver_behavior_env
+channels:
+  - defaults
+  - nvidia
+dependencies:
+  - python=3.10
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - pillow
+  - mkl
+  - mkl-service
+  - pip
+  - pip:
+    - torch --index-url https://download.pytorch.org/whl/cu118
+    - torchvision --index-url https://download.pytorch.org/whl/cu118
