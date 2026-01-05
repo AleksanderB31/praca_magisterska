@@ -1,1 +1,7 @@
 datasets/*
+*.png
+*.jpg
+*.jpeg
+*.pyc
+*.pth
+*.pt

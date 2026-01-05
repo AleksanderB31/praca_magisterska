@@ -1,0 +1,16 @@
+Accuracy: 0.9238
+Weighted Precision: 0.9266
+Weighted Recall: 0.9238
+Weighted F1-Score: 0.9238
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Closed       0.99      0.95      0.97       109
+        Open       0.96      0.99      0.98       109
+        yawn       0.83      0.92      0.88       106
+     no_yawn       0.92      0.83      0.87       109
+
+    accuracy                           0.92       433
+   macro avg       0.93      0.92      0.92       433
+weighted avg       0.93      0.92      0.92       433
