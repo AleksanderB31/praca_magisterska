@@ -1,0 +1,20 @@
+name: research-on-real
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - opencv
+  - dlib
+  - pandas
+  - scipy
+  - requests
+  - pip
+  - pip:
+    - imutils
